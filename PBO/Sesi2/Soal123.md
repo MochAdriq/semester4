@@ -2,11 +2,16 @@
    Object: Object adalah instance dari sebuah class. Setiap objek adalah representasi dari class dan dapat menggunakan atribut dan metode yang didefinisikan dalam class tersebut. Objek memiliki state (representasi oleh atribut), behavior (representasi oleh metode), dan identity (memberikan nama unik kepada objek). Objek dibuat menggunakan keyword new dalam bahasa pemrograman seperti Java, dan setiap objek menggunakan memori yang dialokasikan untuk menyimpan state-nya
 
 2. Metode Predefined (Metode Pratama): Metode ini sudah didefinisikan dalam library kelas Java dan dapat digunakan langsung dalam program tanpa perlu deklarasinya. Contohnya termasuk metode length(), equals(), compareTo(), dan sqrt() yang dapat digunakan untuk berbagai tugas seperti operasi matematika, perbandingan string, dan lainnya. Metode ini sering disebut sebagai metode standar atau metode bawaan .
+
 Metode User-defined (Metode Pengguna): Metode yang dibuat oleh programmer sendiri untuk melakukan tugas-tugas tertentu sesuai dengan kebutuhan program. Metode ini dapat dideklarasikan dengan atribut-atribut seperti jenis akses (public, private, protected, default), tipe pengembalian (return type), nama metode, dan daftar parameter. Metode ini dapat mencakup semua jenis tugas yang tidak dapat dilakukan oleh metode predefined .
+
 Metode Static: Metode ini adalah bagian dari kelas, bukan dari objek kelas. Metode static dapat dipanggil tanpa perlu membuat instance dari kelas. Contohnya adalah metode main() yang digunakan sebagai titik masuk program Java. Metode static sering digunakan untuk operasi yang tidak memerlukan state objek .
+
 Metode Instance: Metode ini memerlukan objek dari kelas untuk dipanggil. Metode ini memiliki akses ke variabel dan metode lain dalam kelas. Metode instance dapat dibagi menjadi dua kategori utama:
 Accessor Method: Metode yang digunakan untuk mengambil nilai dari variabel instance. Biasanya, metode ini memiliki nama yang diawali dengan kata get.
+
 Mutator Method: Metode yang digunakan untuk mengubah nilai dari variabel instance. Biasanya, metode ini memiliki nama yang diawali dengan kata set.
+
 Metode Abstract: Metode ini dideklarasikan dalam kelas abstrak dan tidak memiliki implementasi di dalam kelas itu sendiri. Metode abstrak dapat dipanggil melalui referensi objek yang merujuk ke kelas abstrak atau kelas turunannya. Metode abstrak sering digunakan dalam konsep pewarisan dan polimorfisme dalam pemrograman berorientasi objek 4.
 
 3. `public class Komputer {`

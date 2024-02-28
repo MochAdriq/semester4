@@ -18,5 +18,6 @@ public class MobilDiesel extends Mobil {
     void infoMobilDiesel(){
         super.info();
         System.out.println("Bahan Bakar : " + getBahanBakar());
+        System.out.println("Keterangan : ini adalah mobilBensin");
     }
 }
